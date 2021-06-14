@@ -27,5 +27,12 @@ public class MyQueue {
     public INode peak() {
         return myLinkedList.head;
     }
+    /**
+     * dequeue method will delete the first node by calling pop method
+     */
+    public void dequeue() {
+        myLinkedList.pop();
+    }
+
 
 }
